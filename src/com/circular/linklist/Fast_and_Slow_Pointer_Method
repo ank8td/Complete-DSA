@@ -1,0 +1,7 @@
+/* Fast pointer and slow pointer method :->
+   This method basically used to detect cycle in array or linkedlist.
+   Also used to find the node in the cycle etc.
+   There are basically two possiblities:->
+   FastPointer->SlowPointer in next move fast and slow both point to same location hence cycle detected.
+   FastPointer->->SlowPointer then in next step FastPointer->SlowPointer then in one next round both lies at same location the cycle detect.
+*/
